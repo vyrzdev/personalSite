@@ -128,12 +128,3 @@ body {
 .projects-footer {
     margin-left: 1em;
 }
-
-html {
-    scroll-snap-type: y proximity;
-}
-
-section {
-    scroll-snap-align: start;
-    scroll-padding: 80vh;
-}
