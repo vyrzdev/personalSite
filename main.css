@@ -1,80 +1,54 @@
 html {
   scroll-behavior: smooth;
-    background-color: #111111;
 }
-
 body {
-    background-color: #111111;
-    font-family: 'Roboto', sans-serif;
-    color: #eeeeee;
+  text-align: center;
+  padding: 1em;
+    font-family: 'Courier Prime', monospace;
+  background-color: #f5f2e9;
+}
+#intro h1 {
+  text-decoration: underline;
+  margin: 0;
+  margin-bottom: 0.2em;
 }
 
-.name {
-    font-size: xxx-large;
-    color: #eeeeee;
-    font-style: italic;
+#intro p {
+  margin: 0.4em 0;
 }
 
-.slogan {
-    color: #999999;
-    font-size: small;
+#intro img {
+  max-width: 60%;
 }
 
-.interactions {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    margin-top: 1em;
-    color: #999999;
+#intro #socials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 1em;
 }
 
-.top-interaction-link {
-    color: #999999;
-    text-decoration: none;
-    font-size: medium;
-    margin-left: 0;
-    margin-right: 1em;
+
+a:visited {
+  color: #0000EE;
 }
 
-.top-interaction-link:visited {
-    color: #999999;
-    text-decoration: none;
+
+a:hover {
+  color: #0000aa;
 }
 
-.top-interaction-link:hover {
-    color: #eeeeee;
-    text-decoration: none;
+
+@media only screen and (max-width: 767px) {
+    /* Styles for extra small devices like phones */
+  #intro img {
+    max-width: 90%;
+  }
 }
 
-.project-container {
-    display: flex;
-    padding: 1em;
-    flex-direction: column;
-}
 
-.project-image-container {
-}
-
-.project-title {
-    font-size: x-large;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    color: #eeeeee;
-}
-
-.projects-section-title {
-    padding-top: 1em;
-    padding-left: 2.5rem;
-    padding-bottom: 0.5em;
-    color: #eeeeee;
-    font-size: xx-large;
-}
-
-.projects {
-    width: 100%;
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
 
 .fade-in {
     opacity: 0;
@@ -84,47 +58,4 @@ body {
 
 .fading-in {
     opacity: 1;
-}
-
-.contact-higher-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.contact-container {
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-.contacts-section-title {
-    color: #eeeeee;
-    font-size: xx-large;
-}
-
-.contact-interactions {
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.contact-interaction-link {
-    margin-left: 0.3em;
-    margin-right: 0.3em;
-}
-
-.projects-header {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: baseline;
-}
-
-.header-link {
-    margin-left: 1em;
-}
-
-.projects-footer {
-    margin-left: 1em;
 }
