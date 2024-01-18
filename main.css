@@ -61,7 +61,14 @@ a:hover {
 }
 
 #friends {
-  position: fixed;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
+
+.friends-row {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
