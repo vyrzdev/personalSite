@@ -72,3 +72,7 @@ a:hover {
   gap: 1em;
 }
 
+.friends-title {
+  font-size: 1em;
+  text-decoration: underline;
+}
