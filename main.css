@@ -3,7 +3,6 @@ html {
 }
 body {
   text-align: center;
-  padding: 1em;
     font-family: 'Courier Prime', monospace;
   background-color: #f5f2e9;
   margin: 0;
@@ -11,11 +10,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100dvh;
+  padding: 0 1em;
 }
 
 #container {
-  max-width: 70%;
-
+  max-width: 55%;
 }
 h1 {
   font-size: x-large;
@@ -98,6 +98,18 @@ a:hover {large
 .friends-title {
   text-decoration: underline;
 
+}
+
+@media only screen and (max-width: 1800px) {
+  #container {
+    max-width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1550px) {
+  #container {
+    max-width: 70%;
+  }
 }
 
 
