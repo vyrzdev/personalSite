@@ -68,7 +68,11 @@ a:hover {
 	flex-wrap: wrap;
 }
 
-
+#feed-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+}
 
 
 
